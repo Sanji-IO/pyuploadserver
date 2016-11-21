@@ -1,6 +1,6 @@
 # ThingsPro: Simple log upload server
 
-## Prequest
+## Prerequisite
 - Python 2.7 with pip
 > sudo apt-get update && sudo apt-get install python2.7 python-pip
 
@@ -24,6 +24,6 @@ CWD: /tmp/
 All HTTP POST with content-type:`multipart/form-data` and a file field named `file` will save the uploaded file to current working directory.
 
 ### Advanced
-By passing environments, you could set the following variables:
+Using environment variables, you could set the following variables:
 - `DEBUG=yes` enable debug console
 - `PORT=1234` change listening port to 1234
